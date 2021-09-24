@@ -1,6 +1,7 @@
 import refs from './js/refs';
-import changeColorTheme from './js/change-color-theme';
+import { setUserTheme } from './js/change-theme';
+import { changeTheme } from './js/change-theme';
 const { checkboxEl, listEl, bodyEl } = refs;
-console.log(checkboxEl);
 
-checkboxEl.addEventListener('change', changeColorTheme);
+setUserTheme();
+checkboxEl.addEventListener('change', changeTheme);
