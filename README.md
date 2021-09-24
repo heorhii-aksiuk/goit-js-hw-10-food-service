@@ -3,7 +3,7 @@
 JS. Homework #10 (Libraries, Templating, JSON, WebStorage)
 
 <!--
-1. Создать файл рефов
+1. Создать файл рефов DONE!
 
 
 
